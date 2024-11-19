@@ -1,0 +1,1303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 100px;
+  background: rgb(226, 159, 134);
+  background: linear-gradient(180deg, rgb(226, 159, 134) 0%, rgba(226, 159, 134, 0.6503851541) 30%, rgb(255, 255, 255) 82%);
+}
+header .top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+header .top .left ul {
+  list-style: none;
+}
+header .top .left ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  color: black;
+}
+header .center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .center a {
+  font-size: 20px;
+  padding: 15px;
+  color: black;
+}
+header .center p {
+  font-size: 20px;
+}
+header .right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header .right i {
+  font-size: 20px;
+  color: black;
+}
+header .right a {
+  font-size: 20px;
+  padding: 15px;
+  color: black;
+}
+
+.my {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 150px;
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.my .dzebna {
+  position: relative;
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.my .dzebna input {
+  outline: none;
+  border: none;
+  padding: 30px;
+  font-size: 20px;
+  padding-left: 60px;
+  border-bottom: 2px solid black;
+  font-family: "Poppins", sans-serif;
+}
+.my .dzebna i {
+  position: absolute;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.my .wishlist {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: black;
+}
+.my .wishlist .wish {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.my .wishlist .loc {
+  margin: 30px;
+  font-size: 20px;
+}
+.my .wishlist .fa-bars {
+  display: none !important;
+  color: black;
+}
+.my .wishlist input {
+  width: 40px;
+  height: 40px;
+  margin-left: -37px;
+  opacity: 0;
+}
+.my .wishlist .ioio {
+  background-color: white;
+  height: 1000px;
+  display: none;
+}
+.my .texti {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.menu {
+  margin-top: 10px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 30px;
+}
+.menu ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.week {
+  color: white;
+  background-color: black;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.ab {
+  position: relative;
+  background-image: url("https://static.wixstatic.com/media/c837a6_4442b6892e4b4e44babd8a05468d3a82~mv2.jpg/v1/fill/w_1225,h_715,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_4442b6892e4b4e44babd8a05468d3a82~mv2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+}
+.ab .revive {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  width: 700px;
+  margin-left: 150px;
+}
+.ab .revive h1 {
+  font-size: 70px;
+}
+.ab .revive .new {
+  font-size: 30px;
+}
+.ab .revive p {
+  font-size: 30px;
+  margin-top: 20px;
+}
+.ab button {
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.ab .exclusive {
+  position: relative;
+  position: absolute;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(216, 61, 61);
+  right: 30%;
+  top: 20%;
+  transform: rotate(-30deg);
+}
+.ab div {
+  font-size: 30px;
+  position: absolute;
+  width: 150px;
+  margin-top: 60px;
+  margin-left: 35px;
+  letter-spacing: 2px;
+}
+
+.arrivals {
+  font-size: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card1 .grance {
+  margin-left: 70px;
+  position: relative;
+  cursor: pointer;
+}
+.card1 .grance div {
+  margin-top: 0px;
+  width: 250px;
+}
+.card1 .grance div p {
+  font-size: 30px;
+}
+.card1 .grance .sale {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  background-color: red;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.card1 .grance .sale p {
+  color: white;
+  font-size: 25px;
+}
+.card1 .night {
+  margin-left: 70px;
+  cursor: pointer;
+}
+.card1 .night div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card1 .night div p {
+  font-size: 30px;
+}
+.card1 .night .star {
+  color: rgb(205, 146, 38);
+}
+.card1 .night a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.card1 .eyelash {
+  margin-left: 70px;
+  cursor: pointer;
+}
+.card1 .eyelash div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card1 .eyelash div p {
+  font-size: 30px;
+}
+.card1 .eyelash .star {
+  color: rgb(205, 146, 38);
+}
+.card1 .eyelash a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.card1 .face {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card1 .face div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card1 .face div p {
+  font-size: 30px;
+}
+.card1 .face .star {
+  color: rgb(205, 146, 38);
+}
+.card1 .smooth {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card1 .smooth div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card1 .smooth div p {
+  font-size: 30px;
+}
+.card1 .natural {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card1 .natural div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card1 .natural div p {
+  font-size: 30px;
+}
+
+.recommended {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.card2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card2 .florie {
+  cursor: pointer;
+  margin-left: 70px;
+  position: relative;
+}
+.card2 .florie div {
+  margin-top: 0px;
+  width: 250px;
+}
+.card2 .florie div p {
+  font-size: 30px;
+}
+.card2 .florie .sale {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  background-color: red;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.card2 .florie .sale p {
+  color: white;
+  font-size: 25px;
+}
+.card2 .makeup {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card2 .makeup div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card2 .makeup div p {
+  font-size: 30px;
+}
+.card2 .makeup .star {
+  color: rgb(205, 146, 38);
+}
+.card2 .makeup a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.card2 .hair {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card2 .hair div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card2 .hair div p {
+  font-size: 30px;
+}
+.card2 .hair .star {
+  color: rgb(205, 146, 38);
+}
+.card2 .hair a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.card2 .Foundation {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card2 .Foundation div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card2 .Foundation div p {
+  font-size: 30px;
+}
+.card2 .Foundation .star {
+  color: rgb(205, 146, 38);
+}
+.card2 .Foundation a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.card2 .liquid {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card2 .liquid div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card2 .liquid div p {
+  font-size: 30px;
+}
+.card2 .cleanser {
+  cursor: pointer;
+  margin-left: 70px;
+}
+.card2 .cleanser div {
+  margin-top: 20px;
+  width: 250px;
+}
+.card2 .cleanser div p {
+  font-size: 30px;
+}
+
+.recommended {
+  font-size: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.card3 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+.card3 .picture1 {
+  background-image: url("https://www.instyle.com/thmb/g6HvOcfTJAPhm2IUZdw5_EcaANU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/041221_concealers_embed-0499776ef33b41d5934b7dcfeae18891.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.card3 .picture1 .promo {
+  color: white;
+  background-color: black;
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+}
+.card3 .picture1 .promo h1 {
+  font-size: 50px;
+  margin: 10px;
+  margin-left: 40px;
+}
+.card3 .picture1 .promo p {
+  font-size: 30px;
+  margin-left: 30px;
+}
+.card3 .picture1 .promo button {
+  width: 300px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 5px;
+  margin-left: 30px;
+}
+.card3 .picture1 .promo .SALEISON {
+  position: absolute;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(216, 61, 167);
+  transform: rotate(-30deg);
+  bottom: -10%;
+  right: -10%;
+}
+.card3 .picture1 .promo .SALEISON p {
+  color: black;
+  margin-top: 70px;
+  letter-spacing: 8px;
+  width: 70%;
+  margin-left: 50px;
+}
+.card3 .picture2 {
+  background-image: url("https://www.euphoriazine.com/wp-content/uploads/2023/06/Header-images.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+}
+.card3 .picture2 p {
+  font-size: 25px;
+  margin-top: 70px;
+  margin-left: 70px;
+  color: white;
+}
+.card3 .picture2 h1 {
+  font-size: 50px;
+  width: 400px;
+  margin-left: 70px;
+  color: white;
+}
+.card3 .picture2 button {
+  width: 200px;
+  height: 35px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: rgb(213, 32, 32);
+  border: none;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.card3 .picture2 button:hover {
+  background-color: transparent;
+}
+
+.category {
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card4 {
+  padding-top: 100px;
+  padding-left: 300px;
+  padding-right: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+}
+.card4 .new {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 10px;
+}
+.card4 .new img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.card4 .new1 {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new1 img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 20px;
+}
+.card4 .new1 img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new1 h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.card4 .new2 {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new2 img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 20px;
+}
+.card4 .new2 img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new2 h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.card4 .new3 {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new3 img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 20px;
+}
+.card4 .new3 img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new3 h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.card4 .new4 {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new4 img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 20px;
+}
+.card4 .new4 img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new4 h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.card4 .new5 {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new5 img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 20px;
+}
+.card4 .new5 img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new5 h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.card4 .new6 {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new6 img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 20px;
+}
+.card4 .new6 img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new6 h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+.card4 .new7 {
+  cursor: pointer;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  align-items: center;
+}
+.card4 .new7 img {
+  border: 2px solid orange;
+  border-radius: 45%;
+  padding: 20px;
+}
+.card4 .new7 img:hover {
+  background-color: rgba(255, 166, 0, 0.296);
+}
+.card4 .new7 h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.card5 {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FBE6DD;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card5 h1 {
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.whats {
+  font-size: 50px;
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card6 {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card6 .grance {
+  cursor: pointer;
+  margin-left: 70px;
+  position: relative;
+}
+.card6 .grance div {
+  margin-top: 0px;
+  width: 250px;
+}
+.card6 .grance div p {
+  font-size: 30px;
+}
+.card6 .grance .sale {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  background-color: red;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 0;
+  left: 0;
+}
+.card6 .grance .sale p {
+  color: white;
+  font-size: 25px;
+}
+
+.shopsale {
+  margin-top: 100px;
+  margin-left: 45%;
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+}
+.shopsale a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.shopsale:hover {
+  background-color: rgb(212, 56, 56);
+}
+
+.shopsale:hover a {
+  color: black;
+  transition: 0;
+}
+
+.upto {
+  margin-top: 50px;
+  background-image: url("https://static.wixstatic.com/media/84770f_34c9cda2848a4f7dac0dd9ec2c823951~mv2.jpg/v1/fill/w_980,h_478,al_c,q_85,enc_auto/84770f_34c9cda2848a4f7dac0dd9ec2c823951~mv2.jpg");
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  align-items: center;
+  background-repeat: no-repeat;
+  flex-direction: column;
+}
+.upto div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.upto div p {
+  font-size: 40px;
+}
+.upto div h2 {
+  font-size: 60px;
+}
+.upto .rame {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  border: none;
+  margin-top: 30px;
+}
+.upto .rame a {
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.upto .rame:hover a {
+  color: black;
+}
+.upto .rame:hover {
+  background-color: rgb(211, 38, 38);
+}
+
+.part {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.part h1 {
+  font-size: 60px;
+  color: white;
+  width: 1000px;
+  text-align: center;
+}
+.part .mail {
+  padding-top: 30px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: white;
+}
+.part .mail input {
+  width: 1000px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+.part p {
+  font-size: 30px;
+  color: white;
+}
+.part .hhhh {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 50px;
+}
+.part .hhhh .chek {
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+.part .hhhh .chek input {
+  width: 30px;
+  height: 30px;
+}
+.part .hhhh button {
+  width: 400px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  font-size: 20px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.jjkk {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px;
+}
+.jjkk .kk1 h1 {
+  padding-bottom: 20px;
+}
+.jjkk .kk1 p {
+  font-size: 25px;
+  padding: 3px;
+}
+.jjkk .kk2 h1 {
+  padding-bottom: 20px;
+}
+.jjkk .kk2 p {
+  font-size: 25px;
+  padding: 3px;
+}
+.jjkk .kk3 h1 {
+  padding-bottom: 20px;
+}
+.jjkk .kk3 p {
+  font-size: 25px;
+  padding: 3px;
+}
+.jjkk .kk4 h1 {
+  padding-bottom: 20px;
+}
+.jjkk .kk4 p {
+  font-size: 25px;
+  padding: 3px;
+}
+.jjkk .kk4 a {
+  font-size: 25px;
+}
+
+.pay {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pay .line1 {
+  height: 2px;
+  background-color: black;
+  width: 100%;
+}
+.pay .ertad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pay .ertad h1 {
+  font-size: 50px;
+}
+.pay .terms {
+  padding: 50px;
+}
+.pay .terms a {
+  font-size: 25px;
+  padding: 20px;
+  color: black;
+}
+
+.union img {
+  margin: 50px;
+  width: 100px;
+}
+
+.bolo {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(226, 159, 134);
+  background: linear-gradient(5deg, rgb(226, 159, 134) 10%, rgba(226, 159, 134, 0.6503851541) 29%, rgba(250, 237, 232, 0.62517507) 52%, rgba(255, 255, 255, 0.5635504202) 84%);
+}
+.bolo h1 {
+  font-size: 90px;
+}
+.bolo p {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1550px) {
+  .card4 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .part .hhhh {
+    flex-direction: column;
+  }
+  .part .hhhh button {
+    width: 600px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  header {
+    height: 50px;
+  }
+  header .left {
+    display: none;
+  }
+  header .right {
+    display: none;
+  }
+  header .center {
+    justify-content: center;
+    margin-left: 25%;
+  }
+  .my {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .ab .exclusive {
+    right: 20%;
+    top: 60%;
+  }
+  .card1 .grance {
+    margin-left: 35px;
+  }
+  .card1 .face {
+    display: none;
+  }
+  .card1 .smooth {
+    display: none;
+  }
+  .card1 .natural {
+    display: none;
+  }
+  .card2 .florie {
+    margin-left: 35px;
+  }
+  .card2 .Foundation {
+    display: none;
+  }
+  .card2 .liquid {
+    display: none;
+  }
+  .card2 .cleanser {
+    display: none;
+  }
+  .shopsale {
+    margin-left: 40%;
+  }
+  .part p {
+    text-align: center;
+  }
+  .jjkk {
+    flex-direction: row;
+  }
+  .jjkk .kk4 {
+    margin-left: 20%;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .my {
+    grid-template-columns: auto auto;
+    height: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .my .dzebna {
+    display: none;
+  }
+  .my .wishlist {
+    border: none;
+    width: 100%;
+  }
+  .my .wishlist .wish {
+    display: none;
+  }
+  .my .wishlist .loc {
+    display: none;
+  }
+  .my .wishlist i {
+    font-size: 40px;
+    margin-left: 60px;
+  }
+  .my .wishlist .fa-bars {
+    display: block !important;
+  }
+  .my .texti {
+    border: none;
+    font-size: 40px;
+    margin-left: -25%;
+  }
+  .menu {
+    display: none;
+  }
+  .week {
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .ab {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1100px;
+  }
+  .ab .revive {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+  .ab .revive h1 {
+    font-size: 30px;
+  }
+  .ab .revive p {
+    font-size: 20px;
+  }
+  .ab .revive button {
+    width: 150px;
+    font-size: 20px;
+  }
+  .ab .exclusive {
+    top: 20%;
+    right: 15%;
+  }
+  .arrivals {
+    margin-top: -300px;
+  }
+  .card1 {
+    justify-content: center;
+  }
+  .card1 .night {
+    display: none;
+  }
+  .card1 .eyelash {
+    display: none;
+  }
+  .card1 .recommended {
+    text-align: center;
+  }
+  .card2 {
+    justify-content: center;
+  }
+  .card2 .makeup {
+    display: none;
+  }
+  .card2 .hair {
+    display: none;
+  }
+  .card3 {
+    margin-top: 40px;
+    display: flex;
+    height: 1000px;
+    flex-direction: column;
+  }
+  .card3 .picture1 {
+    height: 50%;
+    width: 100%;
+  }
+  .card3 .picture1 .promo {
+    margin-top: -200px;
+  }
+  .card3 .picture1 .promo h1 {
+    font-size: 40px;
+    margin-left: 10px;
+  }
+  .card3 .picture1 .promo p {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .card3 .picture1 .promo button {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .card3 .picture1 .promo .SALEISON {
+    left: 60%;
+  }
+  .card3 .picture2 {
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+  }
+  .card3 .picture2 p {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .card3 .picture2 h1 {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+  .card3 .picture2 button {
+    margin-left: 10px;
+  }
+  .upto {
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 300px;
+  }
+  .upto div {
+    margin-top: -800px;
+  }
+  .upto div p {
+    font-size: 30px;
+  }
+  .upto div h2 {
+    font-size: 40px;
+  }
+  .upto button {
+    margin-left: 10%;
+  }
+  .part {
+    width: 100%;
+    flex-direction: column;
+    margin-top: -200px;
+    text-align: center;
+  }
+  .part h1 {
+    font-size: 30px;
+    width: 700px;
+    margin-left: -450px;
+  }
+  .part p {
+    font-size: 20px;
+    width: 700px;
+    margin-left: -450px;
+  }
+  .part .mail input {
+    width: 500px;
+    margin-left: -400px;
+  }
+  .part .mail label {
+    margin-left: -750px;
+  }
+  .part .hhhh {
+    margin-left: 100px;
+  }
+  .part .hhhh .chek input {
+    margin-left: -700px;
+  }
+  .part .hhhh button {
+    width: 400px;
+  }
+  .jjkk {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .jjkk .kk3 {
+    margin-left: -15%;
+  }
+  .jjkk .kk4 {
+    margin-left: 10%;
+  }
+  .pay .terms {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+  .bolo h1 {
+    font-size: 60px;
+  }
+}/*# sourceMappingURL=style.css.map */
